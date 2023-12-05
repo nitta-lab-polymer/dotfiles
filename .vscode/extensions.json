@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "PKief.material-icon-theme",
+        "eamodio.gitlens",
+        "redjue.git-commit-plugin",
+    ]
+}
