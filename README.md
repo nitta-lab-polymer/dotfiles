@@ -13,7 +13,7 @@ devcontainerに使用するイメージにgitがインストールされてい�
     "customizations": {
         "vscode": {
             "settings": {
-                "dotfiles.repository": "https://github.com/Mkamono/dotfiles.git",
+                "dotfiles.repository": "https://github.com/nitta-lab-polymer/dotfiles.git",
                 "dotfiles.targetPath": "/workspaces/${localWorkspaceFolderBasename}/dotfiles"
             }
         }
