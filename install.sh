@@ -51,3 +51,6 @@ go help >/dev/null && install_go_tools
 if ! test -f "${workspace_dir}"/.gitignore; then
     cat "${dotfiles_dir}"/.gitignore.init >>"${workspace_dir}"/.gitignore
 fi
+
+# 作業用ディレクトリの作成
+mkdir -p "${workspace_dir}"/projects

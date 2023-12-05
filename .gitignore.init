@@ -2,3 +2,5 @@
 .devcontainer/.bashrc
 .vscode/remote-settings.json
 .config
+project
+.env
