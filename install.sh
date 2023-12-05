@@ -53,4 +53,4 @@ if ! test -f "${workspace_dir}"/.gitignore; then
 fi
 
 # 作業用ディレクトリの作成
-mkdir -p "${workspace_dir}"/projects
+mkdir -p "${workspace_dir}"/project
