@@ -1,0 +1,83 @@
+{
+    // common
+    "dotfiles.repository": "https://github.com/nitta-lab-polymer/dotfiles.git",
+    "dotfiles.targetPath": "./workspaces/${localWorkspaceFolderBasename}/dotfiles",
+    "editor.guides.bracketPairs": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.dragAndDrop": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "diffEditor.experimental.showMoves": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.tabs.focusMode": "singleClick",
+    "files.autoGuessEncoding": true,
+    "files.insertFinalNewline": true,
+    "files.associations": {
+        "remote-settings.json": "jsonc",
+        ".gitignore.init": "ignore"
+    },
+    "files.eol": "\n",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "settings.json",
+                "remote-settings.json",
+                "devcontainer.json",
+            ],
+            "schema": {
+                "allowTrailingCommas": true
+            }
+        }
+    ],
+    "workbench.editor.tabSizing": "fixed",
+    // git
+    "git.confirmSync": false,
+    "GitCommitPlugin.MaxSubjectCharacters": 30,
+    "git.autofetch": "all",
+    // python
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.diff.ignoreMetadata": true,
+    "notebook.diff.ignoreOutputs": true,
+    "notebook.output.scrolling": true,
+    "notebook.output.textLineLimit": 10,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    // other extensions
+    "thunder-client.indentSize": 4,
+    "cSpell.ignorePaths": [
+        "package.json",
+        "package-lock.json",
+        "yarn.lock",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        ".devcontainer",
+        "dotfiles"
+    ],
+    // language specific
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+}
