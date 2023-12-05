@@ -1,0 +1,48 @@
+{
+    "extensions": {
+        "common": [
+            "ms-azuretools.vscode-docker",
+            "GitHub.copilot",
+            "GitHub.copilot-chat",
+            "rangav.vscode-thunder-client",
+            "streetsidesoftware.code-spell-checker",
+            "usernamehw.errorlens",
+            "PKief.material-icon-theme"
+        ],
+        "git": [
+            "eamodio.gitlens",
+            "GitHub.vscode-pull-request-github",
+            "redjue.git-commit-plugin",
+            "mhutchie.git-graph",
+            "codezombiech.gitignore"
+        ],
+        "python": [
+            "ms-python.python",
+            "ms-toolsai.jupyter",
+            "njpwerner.autodocstring",
+            "charliermarsh.ruff",
+            "mgesbert.python-path"
+        ],
+        "go": [
+            "golang.go"
+        ],
+        "shell": [
+            "foxundermoon.shell-format",
+            "timonwong.shellcheck"
+        ],
+        "db": [
+            "cweijan.vscode-database-client2",
+            "qwtel.sqlite-viewer"
+        ],
+        "share": [
+            "adpyke.codesnap",
+            "MS-vsliveshare.vsliveshare"
+        ],
+        "doc": [
+            "cweijan.vscode-office"
+        ],
+        "frontend": [
+            "formulahendry.auto-rename-tag"
+        ]
+    }
+}
