@@ -1,6 +1,5 @@
 #! /bin/bash
 
-git config --global core.autocrlf input
 source ~/.git-completion.sh
 
 function default_branch() {
