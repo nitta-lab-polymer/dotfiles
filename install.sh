@@ -25,11 +25,6 @@ curl -o ~/.git-completion.sh \
     https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 # [bashrc] source ~/.git-completion.sh
 
-# gitの設定
-cp -n "${dotfiles_dir}"/.env.template "${workspace_dir}"/.env
-source "${workspace_dir}"/.env
-git config --global user.name "${GIT_USER_NAME}"
-git config --global user.email "${GIT_USER_EMAIL}"
 
 # .bashrcのリンクを作成
 rm "${workspace_dir}"/.devcontainer/.bashrc ~/.bashrc
