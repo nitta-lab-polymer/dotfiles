@@ -17,6 +17,7 @@
     "terminal.integrated.cursorWidth": 2,
     "terminal.integrated.rightClickBehavior": "default",
     "terminal.integrated.tabs.focusMode": "singleClick",
+    "terminal.integrated.stickyScroll.enabled": true,
     "files.autoGuessEncoding": true,
     "files.insertFinalNewline": true,
     "files.associations": {
